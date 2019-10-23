@@ -2,10 +2,10 @@ package ba.unsa.etf.rpr;
 
 public class Artikl {
     private String naziv;
-    private double cijena;
+    private int cijena;
     private String kod;
 
-    public Artikl(String n, double c, String k) {
+    public Artikl(String n, int c, String k) {
         naziv = n;
         cijena = c;
         kod = k;
@@ -15,7 +15,7 @@ public class Artikl {
         return naziv;
     }
 
-    public double getCijena() {
+    public int getCijena() {
         return cijena;
     }
 
