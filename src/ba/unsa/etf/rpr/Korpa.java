@@ -19,7 +19,7 @@ public class Korpa {
     public Artikl[] getArtikli () {
         return nizArtikala;
     }
-    public Artikli izbaciArtiklSaKodom(String k) {
+    public Artikl izbaciArtiklSaKodom(String k) {
         Artikl trazeni = null;
         for(int i = 0 ; i < brojStvariUKorpi; i++){
             if(nizArtikala[i].getKod().equals(k)){
