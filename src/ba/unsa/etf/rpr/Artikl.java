@@ -10,4 +10,16 @@ public class Artikl {
         cijena = c;
         kod = k;
     }
+
+    public String getNaziv() {
+        return naziv;
+    }
+
+    public double getCijena() {
+        return cijena;
+    }
+
+    public String getKod() {
+        return kod;
+    }
 }
