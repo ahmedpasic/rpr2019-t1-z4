@@ -22,4 +22,9 @@ public class Artikl {
     public String getKod() {
         return kod;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        return kod.equals(((Artikl) obj).kod);
+    }
 }
